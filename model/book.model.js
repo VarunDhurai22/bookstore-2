@@ -6,5 +6,7 @@ const bookSchema = mongoose.Schema({
     category:String,
     image:String,
     title:String
-})
+});
 const Book = mongoose.model("Book",bookSchema);
+
+export default Book;
